@@ -1,0 +1,22 @@
+
+Call:
+lm(formula = preco ~ area + quartos + localizacao)
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-161447  -31755   -2492   33931  136141 
+
+Coefficients:
+                     Estimate Std. Error t value Pr(>|t|)    
+(Intercept)          80295.63   22363.94   3.590 0.000525 ***
+area                    24.83     104.92   0.237 0.813453    
+quartos              17651.32    4790.99   3.684 0.000381 ***
+localizacaoRural    -20033.19   13785.47  -1.453 0.149461    
+localizacaoSubúrbio -11832.79   12599.35  -0.939 0.350031    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 53170 on 95 degrees of freedom
+Multiple R-squared:  0.1589,	Adjusted R-squared:  0.1234 
+F-statistic: 4.486 on 4 and 95 DF,  p-value: 0.002307
+
